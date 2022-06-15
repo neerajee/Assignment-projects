@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="Styles.css" rel="stylesheet"  type="text/css"/>
+    <title>Stunningnlanding page</title>
+</head>
+<body class="body">
+  <div class="header">
+    <div>
+        <img class="logo" src="https://i.im.ge/2022/06/15/rJWe1M.png">
+    </div>
+
+    <div class="menu-bar">
+        <div class="child">Home</div>
+        <div class="child">About</div>
+        <div class="child">Blogs</div>
+        <div class="child">Jobs</div>
+    </div>
+
+    <div class="button">
+        <button class="B" type="menu">Your account</button>
+    </div>
+</div>
+<div class="content">
+    <div class="content-1">
+        
+            <div class="content-child"><div><h1 class="h1">Stunning</h1>
+            <h1 class="h1">Workplace</h1></div>
+           <div class="div-button"><button class="button-2"> </button></div></div>
+         
+         <div class="para">
+            <p class="p">With Stunning remote team can organize projects,</p>
+            <p>manage shifting priorities, and get work done.</p>
+        </div>
+        <div class="arrow">
+            <div class="arrow-child"><button class="button-3">New Account</button></div>
+            <div class="arrow-child"><img class="img-3" src="https://i.im.ge/2022/06/15/rJWnaX.png"></div>
+            <div class="arrow-child"><img class="img-3" src="https://i.im.ge/2022/06/15/rJW8sx.png"></div>
+
+
+        </div>
+        <div class="selector">
+        <div class="selector-1">
+            <div><img src="https://i.im.ge/2022/06/15/rJZXhC.png"></div>
+            <div class="span-a"><span class="span-1">Dmm Design</span></div>
+            <div class="img-4"><img src="https://i.ibb.co/jWPj5qD/user-pink.png"></div>
+            <div class="span-b"><span class="span-2">20 Dec</span></div>
+            <div class="button-4"><button class="b-a"></button></div>
+        </div>
+        <div class="selector-2">
+            <div><img src="https://i.im.ge/2022/06/15/rJZoo4.png"></div>
+            <div class="span-a"><span class="span-1">Blurr animation</span></div>
+            <div class="img-4"><img src="https://i.ibb.co/ykBDdSP/user-orange.png"></div>
+            <div class="span-b"><span class="span-2">22 Dec</span></div>
+            <div class="button-4"><button class="b-b"></button></div>
+        </div>
+        <div class="selector-3">
+            <div><img src="https://i.im.ge/2022/06/15/rJZXhC.png"></div>
+            <div class="span-a"><span class="span-1">Illustration</span></div>
+            <div class="img-4"><img src="https://i.im.ge/2022/06/15/rJZrBp.png"></div>
+            <div class="span-b"><span class="span-2">26 Dec</span></div>
+            <div class="button-4"><button class="b-c"></button></div>
+        </div>
+        <div class="selector-4">
+            <div><img src="https://i.im.ge/2022/06/15/rJZXhC.png"></div>
+            <div class="span-a"><span class="span-1">Refunds</span></div>
+            <div class="img-4"><img src="https://i.ibb.co/PWq7JRG/user-red.png"></div>
+            <div class="span-b"><span class="span-2">28 Dec</span></div>
+            <div class="button-4"><button class="b-d"></button></div>
+        </div>
+
+
+
+
+        </div>
+        
+
+    </div>
+    <div class="content-2">
+        <img class="image-2" src="https://i.im.ge/2022/06/15/rJZMmY.png">
+    </div>
+</div>
+    
+</body>
+</html>
+
+
+.body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.header{
+
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+  padding: 30px;
+}
+
+.logo{
+
+    height: 90px;
+    width: 200px;
+    margin-left: 30px;
+}
+.menu-bar{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.child{
+     margin-top: 35px;
+    margin-right: 40px;
+    font-size: larger;
+    
+}
+
+.child:hover{
+         font-weight: bold;
+         text-decoration: underline;
+         text-decoration-color: blue;
+         text-decoration-thickness: 4px;
+
+}
+.B{
+  margin-top: 20px;
+  margin-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+   color: blue;
+  border-radius: 20px;
+  background-color: pink;
+  border-color: pink;
+}
+.content{
+    display: flex
+}
+
+.content-1{
+
+    
+    width:  50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2{
+
+    width: 50%;
+    
+}
+
+.image-2{
+    height: 80%;
+    width: 80%;
+    margin-top: 30px;
+
+}
+
+
+.h1{
+     line-height: 20px;
+    font-size:400%;
+    margin-left: 50px;
+}
+
+.para{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.p{
+  
+margin: 0px;
+line-height: 0px;
+
+}
+
+.content-child{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.button-2{
+   
+  float: right;
+  height: 12px;
+  width: 6px;
+  background-color: blue;
+  border-color: blue;
+    
+}
+.div-button{
+
+    margin-top: 125px;
+    margin-left: 2px;
+}
+.arrow{
+    display: flex;
+    margin-left: 100px;
+}
+.arrow-child{
+
+    margin-right: 20px;
+    
+}
+
+.img-3{
+    height: 40px;
+    width: 40px;
+}
+.button-3{
+
+   
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+     color: white;
+    border-radius: 15px;
+    background-color:blue;
+    border-color:blue;  
+}
+
+.selector{
+    
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.selector-1{
+    display: flex;
+    opacity: 0.8;
+}
+.selector-2{
+    display: flex;
+    box-shadow: 20%;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background-color:whitesmoke;
+    margin-right: 220px;
+
+    
+
+}
+.selector-3{
+    display: flex;
+    opacity: 0.8;
+    
+
+}
+.selector-4{
+    display: flex;
+    opacity: 0.8;
+
+}
+
+
+.span-a{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 105px;
+}
+.span-b{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 50px;
+}
+.img-4{
+
+    margin-left: 20px;
+}
+.button-4{
+    margin-left:10px;
+    margin-top: 3px;
+
+}
+.b-a{
+    border-radius:  15px;
+    background-color: pink;
+    width: 25px;
+    height: 10px;
+    border-color: pink;
+    
+}
+.b-b{
+    border-radius:  15px;
+    background-color: red;
+    width: 25px;
+    height: 10px;
+    border-color: red;
+    
+}
+.b-c{
+    border-radius:  15px;
+    background-color: green;
+    width: 25px;
+    height: 10px;
+    border-color: green;
+    
+}
+.b-d{
+    border-radius:  15px;
+    background-color: orange;
+    width: 25px;
+    height: 10px;
+    border-color: orange;
+    
+}
+.span-2{
+    opacity: 40%;
+}
+
